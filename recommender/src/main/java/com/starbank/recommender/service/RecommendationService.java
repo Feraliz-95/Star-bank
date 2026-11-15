@@ -4,7 +4,6 @@ import com.starbank.recommender.dto.RecommendationDto;
 import com.starbank.recommender.dto.UserRecommendationsDto;
 import com.starbank.recommender.rules.RecommendationRuleSet;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;

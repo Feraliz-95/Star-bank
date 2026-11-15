@@ -28,7 +28,6 @@ public class RecommendationsRepository {
         JOIN products p ON t.product_id = p.id
         WHERE t.user_id = ? AND p.type = ? AND t.type = ?
         """;
-
     /** Использует ли пользователь хотя бы один продукт заданного типа. */
     public boolean userUsesProductType(UUID userId, String productType) {
         Integer count = jdbcTemplate.queryForObject(

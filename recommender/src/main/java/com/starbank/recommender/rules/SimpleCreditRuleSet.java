@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 import java.util.UUID;
-
 import static com.starbank.recommender.rules.RecommendationConstants.*;
 
 @Component

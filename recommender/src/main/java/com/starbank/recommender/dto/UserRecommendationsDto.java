@@ -1,5 +1,4 @@
 package com.starbank.recommender.dto;
-
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;
