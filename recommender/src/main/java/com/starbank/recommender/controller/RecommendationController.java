@@ -1,6 +1,4 @@
 package com.starbank.recommender.controller;
-
-
 import com.starbank.recommender.dto.UserRecommendationsDto;
 import com.starbank.recommender.service.RecommendationService;
 import org.springframework.web.bind.annotation.GetMapping;

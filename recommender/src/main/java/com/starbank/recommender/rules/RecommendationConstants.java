@@ -2,6 +2,7 @@ package com.starbank.recommender.rules;
 public final class RecommendationConstants {
     private RecommendationConstants() {}
 
+
     public static final String INVEST_500_ID = "147f6a0f-3b91-413b-ab99-87f081d60d5a";
     public static final String INVEST_500_NAME = "Invest 500";
     public static final String INVEST_500_TEXT = """

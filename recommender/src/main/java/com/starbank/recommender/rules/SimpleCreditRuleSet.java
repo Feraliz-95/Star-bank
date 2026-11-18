@@ -4,7 +4,6 @@ package com.starbank.recommender.rules;
 import com.starbank.recommender.dto.RecommendationDto;
 import com.starbank.recommender.repository.RecommendationsRepository;
 import org.springframework.stereotype.Component;
-
 import java.util.Optional;
 import java.util.UUID;
 import static com.starbank.recommender.rules.RecommendationConstants.*;
