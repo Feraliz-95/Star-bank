@@ -2,3 +2,12 @@ spring:
   datasource:
     url: jdbc:h2:file:C:/Users/anana/Downloads/transaction.mv/transaction
     driver-class-name: org.h2.Driver
+    username: ""
+    password: ""
+  datasource-rules:
+    url: jdbc:postgresql://localhost:5432/starbank
+    username: postgres
+    password: postgres
+
+  jpa:
+    open-in-view: false
